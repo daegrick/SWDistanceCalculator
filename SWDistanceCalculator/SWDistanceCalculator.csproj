@@ -52,13 +52,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Builder\StarshipBuilder.cs" />
     <Compile Include="Enums\TimeUnit.cs" />
+    <Compile Include="Interfaces\IParser.cs" />
     <Compile Include="Interfaces\IStarshipService.cs" />
     <Compile Include="Models\Duration.cs" />
     <Compile Include="Models\Starship.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\StarshipService.cs" />
+    <Compile Include="Utils\Helper.cs" />
+    <Compile Include="Utils\Parser.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

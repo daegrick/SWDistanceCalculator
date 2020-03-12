@@ -1,4 +1,6 @@
-﻿namespace SWDistanceCalculator.Models
+﻿using SWDistanceCalculator.Utils;
+
+namespace SWDistanceCalculator.Models
 {
     public class Starship
     {
@@ -14,5 +16,12 @@
         /// How long this starship can go without resuply its consumables
         /// </summary>
         public Duration Consumables { get; set; }
+
+        public Starship(string name, int mglt, Duration consumables)
+        {
+            Name = name;
+            MGLT = mglt;
+            Consumables = consumables;
+        }
     }
 }

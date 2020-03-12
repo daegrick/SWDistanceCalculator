@@ -5,6 +5,7 @@
         Day,
         Week,
         Month,
-        Year
+        Year,
+        NotValid
     }
 }
