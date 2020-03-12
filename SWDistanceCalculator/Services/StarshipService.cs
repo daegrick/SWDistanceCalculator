@@ -25,9 +25,10 @@ namespace SWDistanceCalculator.Services
         {
             var api = new StarWarsAPI.StarWarsAPIClient();
             var starships = new List<Starship>();
+            var pageNo = 0;
             while (true)
             {
-                var page = await api.GetAllStarship();
+                var page = await api.GetAllStarship((++pageNo).ToString());
                 starships.AddRange(page.results.Select(result => _builder.BuildStarshipFromApi(result)));
                 if (!page.isNext)
                     break;
