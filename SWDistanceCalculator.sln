@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWDistanceCalculator", "SWDistanceCalculator\SWDistanceCalculator.csproj", "{42F7DA3B-BF7C-447D-9377-BA3B5DF3E198}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWDistanceCalculator.Tests", "SWDistanceCalculator.Tests\SWDistanceCalculator.Tests.csproj", "{BA6888BA-11D6-45D0-96E5-8C0E7B2415AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42F7DA3B-BF7C-447D-9377-BA3B5DF3E198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F7DA3B-BF7C-447D-9377-BA3B5DF3E198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F7DA3B-BF7C-447D-9377-BA3B5DF3E198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F7DA3B-BF7C-447D-9377-BA3B5DF3E198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA6888BA-11D6-45D0-96E5-8C0E7B2415AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA6888BA-11D6-45D0-96E5-8C0E7B2415AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA6888BA-11D6-45D0-96E5-8C0E7B2415AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA6888BA-11D6-45D0-96E5-8C0E7B2415AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {003C889B-D1A0-43C3-8515-6C0BA91CA37E}
+	EndGlobalSection
+EndGlobal
