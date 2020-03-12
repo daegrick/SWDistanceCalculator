@@ -10,6 +10,11 @@ namespace SWDistanceCalculator
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Please enter the distance");
+            do
+            {
+
+            } while (Console.ReadLine() == "exit");
         }
     }
 }

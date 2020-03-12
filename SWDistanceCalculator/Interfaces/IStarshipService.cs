@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SWDistanceCalculator.Interfaces
 {
-    interface IStarshipService 
+    public interface IStarshipService 
     {
         Task<List<Starship>> GetAll();
     }

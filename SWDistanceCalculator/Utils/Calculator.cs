@@ -11,7 +11,7 @@ namespace SWDistanceCalculator.Utils
     {
         private const int DAY_IN_HOURS = 24;
         private const int WEEK_IN_HOURS = 168;
-        private const int MONTH_IN_HOURS = 730;
+        private const int MONTH_IN_HOURS = 720;
         private const int YEAR_IN_HOURS = 8760;
 
         public long CalculateHours(Duration duration)
